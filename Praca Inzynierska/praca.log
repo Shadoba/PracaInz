@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.26)  13 JAN 2020 10:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.26)  13 JAN 2020 10:40
 entering extended mode
 **./praca.tex
 (praca.tex
@@ -687,10 +687,10 @@ Rozdzia\l  8.
 
 ] (praca.aux) ) 
 Here is how much of TeX's memory you used:
- 16936 strings out of 492484
- 305477 string characters out of 3131044
+ 16930 strings out of 492484
+ 305401 string characters out of 3131044
  410687 words of memory out of 3000000
- 21001 multiletter control sequences out of 15000+200000
+ 20995 multiletter control sequences out of 15000+200000
  607425 words of font info for 107 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,6n,67p,2869b,360s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -704,7 +704,7 @@ onts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on praca.pdf (21 pages, 264040 bytes).
+Output written on praca.pdf (21 pages, 264376 bytes).
 PDF statistics:
  115 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
