@@ -23,7 +23,7 @@
 \contentsline {section}{\numberline {4.2}Środowisko projektowe i wymagania aplikacji}{14}%
 \contentsline {subsubsection}{Środowisko projektowe:}{14}%
 \contentsline {subsubsection}{Wymagania Aplikacji:}{14}%
-\contentsline {section}{\numberline {4.3}Działanie i powiązania zbioru konenerów}{15}%
+\contentsline {section}{\numberline {4.3}Działanie i powiązania zbioru kontenerów}{15}%
 \contentsline {subsubsection}{Docker}{15}%
 \contentsline {subsubsection}{Docker-compose}{16}%
 \contentsline {subsubsection}{Aplikacja Java spring boot}{16}%
