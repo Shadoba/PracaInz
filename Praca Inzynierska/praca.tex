@@ -19,9 +19,9 @@
 \usepackage{afterpage}
 \usepackage{capt-of}
 \usepackage[numbers]{natbib}
+\usepackage{hyperref}
 
-\bibliographystyle{abbrvnat}
-\setcitestyle{authortitle-icmop}
+\bibliographystyle{unsrt}
 \setlist[itemize,2]{label={$\star$}}
 
 \begin{document}
@@ -76,11 +76,11 @@ Jednocześnie Uczelnia informuje, że zgodnie z art. 15a ww. ustawy o prawie aut
 Możliwości, jakie oferują maszyny wirtualne są nieocenione we współczesnym świecie. Systemy serwerowe, w skład których mogą wchodzić nawet tysiące powiązanych ze sobą lub indywidualnych serwisów, nie mogą występować albo są zasadniczo trudne do wdrożenia na jednej platformie o określonym systemie opracyjnym, konfiguracji i innych elementach wchodzących w skład szeroko rozumianego środowiska. Maszyny wirtulane są rozwiązaniem tego zagadnienia. Każda maszyna wirtualna może zostać stworzona niezależnie od architektury sprzętowej i oferuje dowolone środowisko, które jednocześnie będzie wyizolowane od środowisk gospodarza (\textit{host}) i innych maszyn wirtualnych (\textit{guest}). Korzyścią płynącą z izolacji środowiska jest chociażby zwiększone bezpieczeństwo systemu, ułatwienie zarządzania serwisami oraz wdrażania nowych wersji aplikacji. Nierzadko używane są stare serwisy, a jednak spełniające swoje zadanie, które wymagają rozwiązań nieaktualnych już wersji elementów środowiskowych, nie wspieranych przez nowsze wersje. Co za tym idzie wdrożenie np. dwóch aplikacji działających w ramach tej samej technologii, ale na różnych wersjach będzie tworzyć konflikt. Problemy tego typu zanikają w kontekście wirtualzacji, albowiem nic nie stoi na przeszkodzie osadzenia każdej pojedynczej aplikcaji na osobnej maszynie. Wirtualizacja posiada jednak szereg wad. Taką wadą jest na przykład to, że każda maszyna wirtualna musi rezerwować określoną i niezmienną w czasie działania ilość zasobów, takich jak pamięć operacyjna (np. \textit{RAM}) i masowa (nieulotna) oraz liczbę wątków procesora i wiele innych. Stawia to przed adminstratorem problem, związany z dobraniem parametramów jakimi taka maszyna ma się cechować. Przydzialnie zbyt małej ilości zasobów sprawi, że serwis będzie niedomagał. Z kolei przydzielnie zbyt dużej ilości zasobów doprowadzi do marnowania się części zasobów, które mogłyby być lepiej wykorzystane. To, jak maszyna wirtualna zużywa zasoby, takie jak pamięć operacyjna, nie jest kontrolowane. Zarezerwowany zasób jest statyczny i nie jest zwalniany w przypadku braku użycia. Rozwiązaniem tego problemu jest zmiana podejścia do koncepcji wirtualzacji, a mianowicie konteneryzacja serwisów. Platformy takie jakie \textit{Docker}\cite{docker} czy \textit{LXC}\cite{lxc} pozwalają tworzyć niewymagające udziału hipernadzorcy wyizolowane środowiska o dynamicznie przydzielanych zasobach, tak zwane kontenery. Kontenery zarządzane przez platformę Docker współdzielą jądro systemowe z gospodarzem i innymi kontenerami, a w ramach osadzenia aplikacji wystarczy dostarczyć zbudowaną aplikację oraz wymagane do poprawnego jej działania składniki systemowe. W ten sposób można zaoszczędzić na użyciu pamięci twardej względem tej samej aplkacji wdrożnej na maszynie wirtualnej. 
 
 \section{Cel pracy}
-Celem pracy jest przeniesienie aplikacji z maszyn wirtualnych na kontenery oraz opracowanie tej metodologii. W konsekwencji zostaną stworzone skalowalne środowiska usług internetowych, działające w oparciu o technologię kontenerów Docker na platformie Linux w systemie wirtualizacji \textit{VMware ESX}\cite{vmwareesx} oraz porównanie i ocena korzyści wynikających z tych działań. Modelem przykładowym jest system aplikacji działających w technologii \textit{Php}\cite{php} i \textit{Java}\cite{java} z framework'iem \textit{Spring Boot}\cite{springboot} oraz baza danych \textit{PostgreSQL}\cite{postgresql} na trzech osobnych kontenerach Docker. Kontenery będą osadzone na zainstalowanej w systemie wirtulazacji ESX maszynie wirtualnej z system operacyjnym \textit{Debian 10}\cite{debian10}. Finalnie wdrożone zostaną realne serwisy w wydziałowej sieci komputerowej.
-%\begin{center}
-%	\includegraphics[height=100mm]{schemat_os.png}
-%	\captionof{figure}{Schmat warstw systemu operacyjnego}
-%\end{center}
+Celem pracy jest przeniesienie aplikacji z maszyn wirtualnych na kontenery oraz opracowanie tej metodologii. W konsekwencji zostaną stworzone skalowalne środowiska usług internetowych, działające w oparciu o technologię kontenerów Docker na platformie Linux w systemie wirtualizacji \textit{VMware ESX}\cite{vmwareesx} oraz porównanie i ocena korzyści wynikających z tych działań. Modelem przykładowym jest system aplikacji działających w technologii \textit{Php}\cite{php} i \textit{Java}\cite{java} z framework'iem \textit{Spring Boot}\cite{springboot} oraz baza danych \textit{PostgreSQL}\cite{postgresql} na trzech osobnych kontenerach Docker. Kontenery będą osadzone na zainstalowanej w systemie wirtulazacji ESX maszynie wirtualnej z system operacyjnym \textit{Debian 10}\cite{debian10}. Finalnie wdrożone zostaną realne serwisy w wydziałowej sieci komputerowej.\\
+\begin{center}
+\includegraphics[width=160mm]{schemat_proj.png}
+\captionof{figure}{Schemat przekształcenia architektury serwerowej.}
+\end{center}
 
 Plan pracy jest następujący. W części teortycznej zostaną omówione mechanizmy stojące za działaniem maszyn wirtualnych i kontenerów na platformie Docker oraz ich porównanie. Natępnie omówiony zostanie schemat wdrożenia aplikacji. Część praktyczna będzie zawierać szczegółowy opis przygotowania środowiska oraz wdrożenia aplikacji zarówno przykładowych. 
 
@@ -92,13 +92,15 @@ Celem projektowej części pracy jest opracowanie skalowalnego środowiska usłu
 Szeroko rozumiane urządzenie zwane komputerem składa się z dwóch kategorii komponentów: urządzeń fizycznych i oprogramowania. W skład urządzeń fizycznych wchodzą między innymi płyta główna, centralna jednostka przetwarzająca i urządzenia wejścia/wyjścia. Oprogramowanie składa się z warstw, najniżej, najbliżej sprzętu znajduje się oprogramownie do zarządzania i komunikacji z urządzaniami, w wyższych warstwach znajdziemy aplikacje użytkowe. Zadaniem systemu operacyjnego jest zarządzanie zarówno zasobami sprzętowymi jak i oprogramowaniem. Stanowi on interfejs pomiędzy maszyną a użytkownikem, umożliwiając tym samym stosowanie komputerów do celów osobistych znanych nam z życia codziennego i profesjonalnych na linii człowiek - maszyna, ale i maszyna - maszyna. Ideą systemu operacyjnego jest istnienie środowiska, które dynamicznie będzie tłumaczyć zlecenia użytkownika na język maszynowy, następnie zlecać sprzętowi ich wykonanie i w drugą stronę informować użytkownia o rezultatach pracy maszyny oraz jej zapotrzebowaniu na dane, zachowując jednocześnie optymalne działanie pracy całego systemu i zawartych w nim urządzeń.
    
 \begin{center}
-\includegraphics[height=100mm]{schemat_os.png}
-\captionof{figure}{Schmat warstw systemu operacyjnego}
+\begin{samepage}
+\includegraphics[width=160mm]{schemat_os.png}
+\captionof{figure}{Schemat warstw systemu operacyjnego}
+\end{samepage}
 \end{center}
 
 Na rysunku 2.1 przedstawiony jest schemat budowy systemu operacyjnego. W skład samego systemu operacyjnego wchodzą sterowniki, jądro i powłoki systemowe. System operacyjny jest również podzielony na przestrzenie jądra i użytkownika. Wirtualizacja zatem jest symulacją warstwy fizycznej komputera, na której można zainstalować i używać dowolny system operacyjny. Zasymulować można różnego rodzaju architektury i parametry sprzętowe, zalecane jest jednak by wirtualna platforma sprzętowa nie przekraczała możliwości rzeczywistego sprzętu. Wirtualizacji można dokonać na kilku poziomach. 
 \subsection {Poziom architektury zestawu instrukcji (\textit{ISA})}
-Tak zwana pełna wirtualizacja. Wszytkie instrukcje procesorowe systemu gościa są interpretowane przez emulator, a następnie mapowane na rzeczywisty sprzęt fizyczny gospodarza. Dalej instrukcje są wykonywane i zwracane do emulatora, który przekazuje je do gościa. Z racji długiej drogi, jaką musi pokonać pojendyczna instrukcja to rozwiązanie należy do najwolniejszych. Tę metodę stosuje się, gdy architektury sprzętowe gościa i gospodarza są zbyt różne, aby dało się je zmapować lub jest to nieopłacalnie trudne. Rozwiąnie to stosuje się na przykład do emulacji środowisk smartfonów, konsol do gier i mikrokontrolerów.
+Ten poziom jest stosowany w pełnej wirtualizacji. Wszytkie instrukcje procesorowe systemu gościa są interpretowane przez emulator, a następnie mapowane na rzeczywisty sprzęt fizyczny gospodarza. Dalej instrukcje są wykonywane i zwracane do emulatora, który przekazuje je do gościa. Z racji długiej drogi, jaką musi pokonać pojedyczna instrukcja to rozwiązanie należy do najwolniejszych. Tę metodę stosuje się, gdy architektury sprzętowe gościa i gospodarza są zbyt różne, aby dało się je zmapować lub jest to nieopłacalnie trudne. Rozwiąnie to stosuje się na przykład do emulacji środowisk smartfonów, konsol do gier i mikrokontrolerów.
 \subsection {Poziom warstwy abstrakcji sprzętowej (\textit{HAL})}
 Inaczej nazywany poziomem sprzętowego wspomagania. Ta metoda wirtulizacji polega na mapowaniu rzeczywistych zasobów sprzętowych na wirtualne zasoby. Zatem wszystkie instrukcje nieuprzywilejowane są wykonywane bezpośrednio na sprzęcie gospodarza. Instrukcje uprzywilejowane, czyli takie które może wykonać tylko gospodarz są przekazywane do hipernadzorcy i ten je wykonuje. Rozwiąznie to jest zasadniczo szybsze od wirtualizacji zestawu instrukcji. Z tej metody korzystają narzędzia do wirtualizacji takie jak \textit{VMware Workstation}\cite{vmwareworkstation}, \textit{Oracle VirtualBox}\cite{virtualbox} i wiele innych.
 \subsection {Poziom systemu operacyjnego}
@@ -113,43 +115,43 @@ Komponentem systemu komputerowego umożliwiającym dokonanie wirtualizacji na po
 
 \subsection {Hipernadzorca typu pierwszego} 
 Jest to tak zwany hipernadzorca natywny (\textit{bare metal}) osadzony bezpośrednio na sprzęcie, nie wymaga on zainstalowanego systemu operacyjnego gospodarza. Pozwala on osadzać maszyny wirtualne nad sobą, co znacząco upraszcza schemat abstrakcji architektury całego systemu. Przykładami tego typu hipernadzorców są \textit{Microsoft Hyper-V}\cite{hyperv} i \textit{VMware ESXi}\cite{vmwareesx}.
-%\begin{center}
-%	\includegraphics[height=100mm]{schemat_os.png}
-%	\captionof{figure}{Schmat warstw systemu operacyjnego}
-%\end{center}
+\begin{center}
+\includegraphics[width=120mm]{schemat_hiper1.png}
+\captionof{figure}{Schemat wirtualizacji dla hipernadzorcy typu pierwszego}
+\end{center}
 
 \subsection {Hipernadzorca typu drugiego} 
 Hipernadzorca hostowany jest osadzony w systemie operacyjnym gospodarza jako aplikacja. Takimi aplikacjami są przykładowo \textit{VMware Workstation}\cite{vmwareworkstation}, \textit{VMware Player}\cite{vmwareplayer}, \textit{Oracle VirtualBox}\cite{virtualbox} i \textit{QEMU}\cite{qemu}.
-%\begin{center}
-%	\includegraphics[height=100mm]{schemat_os.png}
-%	\captionof{figure}{Schmat warstw systemu operacyjnego}
-%\end{center}
+\begin{center}
+\includegraphics[width=120mm]{schemat_hiper2.png}
+\captionof{figure}{Schemat wirtualizacji dla hipernadzorcy typu drugiego}
+\end{center}
 
 \section{Konteneryzacja}
-Konteneryzacja jako wirtualizacja na poziomie systemu opercyjnego, z racji wspóldziełenia przez kontenery jądra systemu gospodarza, powinna cechować się większą wydajnością od wirtulizacji na poziomie \textit{ISA} lub \textit{HAL}. O ile nie zastąpi ona klasycznych maszyn wirtualnych pod względem możliowści uruchamiania różnorodnych systemów operacyjnych, o tyle najmocniejszą stroną konteneryzacji jest dużo niższe zapotrzebowanie na pamięć nieulotną, co za tym idzie przenaszalność oraz szybkość zarówno działania jak i startowania. Współdzielenie jądra systemowego oraz dostępu do fizycznej warstwy komputera niesie ze sobą pewne ryzyko jakim jest drastyczny spadek wydajności. Wszystkie kontenery konkurują ze sobą o zasoby sprzętowe, ale również o zasoby jądra, które nie jest odizolowne między nimi. Zespół Sysdig napotkał na problem degradacji szybkości działania środowiska wewnątrz kontenerów. Z artykułu autorstwa Gianluca Borello\cite{sd17} wynika, że jeden kontener spowalniał inny, poprzez wielkrotne wyszukiwania plików o zadanych ścieżkach dostępu. Proces rozwikłania scieżek dostępu jet procesem nietrywilanym i czasochłonnym, jądro \textit{Linuxa} zapisuje w związku z tym dane jakie uzyskał w tablicy haszowanej, również próby nieudane, by w pszyszłości nie powtarzać całego procesu. Ma to na celu szybsze rozwikłania ścieżek. Jeżeli jednak dojdzie do nadmierngo rozrostu tablicy to efekt staje się odwrotny do zamierzonego i jądro działa wolniej, tym samym spowalniając uruchomione w każdej przestrzeni użytkownika apliakcje. Jądro systemu jest bardzo skomplikowanym oprogramowaniem i jak każde oprogramowanie może w pewnych warunkach nie działać optymalnie, jak w wymienionym przypadku i innych tworząc wąskie gardło pomiędzy warstwami użytkownika i warstwą fizyczną.
-
-%\begin{center}
-%	\includegraphics[height=100mm]{schemat_os.png}
-%	\captionof{figure}{Schmat warstw systemu operacyjnego}
-%\end{center}
+Konteneryzacja jako wirtualizacja na poziomie systemu opercyjnego, z racji wspóldziełenia przez kontenery jądra systemu gospodarza, powinna cechować się większą wydajnością od wirtulizacji na poziomie \textit{ISA} lub \textit{HAL}. O ile nie zastąpi ona klasycznych maszyn wirtualnych pod względem możliowści uruchamiania różnorodnych systemów operacyjnych, o tyle najmocniejszą stroną konteneryzacji jest dużo niższe zapotrzebowanie na pamięć nieulotną, co za tym idzie przenaszalność oraz szybkość zarówno działania jak i startowania. 
+\begin{center}
+\includegraphics[width=140mm]{schemat_kont.png}
+\captionof{figure}{Schemat konteneryzacji}
+\end{center}
+Współdzielenie jądra systemowego oraz dostępu do fizycznej warstwy komputera niesie ze sobą pewne ryzyko jakim jest drastyczny spadek wydajności. Wszystkie kontenery konkurują ze sobą o zasoby sprzętowe, ale również o zasoby jądra, które nie jest odizolowne między nimi. Zespół Sysdig napotkał na problem degradacji szybkości działania środowiska wewnątrz kontenerów. Z artykułu autorstwa Gianluca Borello\cite{sd17} wynika, że jeden kontener spowalniał inny, poprzez wielkrotne wyszukiwania plików o zadanych ścieżkach dostępu. Proces rozwikłania scieżek dostępu jet procesem nietrywialanym i czasochłonnym, jądro \textit{Linuxa} zapisuje w związku z tym dane jakie uzyskał w tablicy haszowanej, również próby nieudane, by w pszyszłości nie powtarzać całego procesu. Ma to na celu szybsze rozwikłania ścieżek. Jeżeli jednak dojdzie do nadmierngo rozrostu tablicy to efekt staje się odwrotny do zamierzonego i jądro działa wolniej, tym samym spowalniając uruchomione w każdej przestrzeni użytkownika apliakcje. Jądro systemu jest bardzo skomplikowanym oprogramowaniem i jak każde oprogramowanie może w pewnych warunkach nie działać optymalnie, jak w wymienionym przypadku i innych tworząc wąskie gardło pomiędzy warstwami użytkownika i warstwą fizyczną.
 
 \chapter{Założenia projektowe}
 \section{Architektura wejściowa serwisów}
 \subsection{Platforma systemu serwerowego}
 Na wydziałowym serwerze zainstalowny jest hipernadzorca typu pierwszego, dokładnie \textit{VMware ESX 6.5}\cite{vmwareesx}, osadzony bezpośrednio nad warstwą fizyczną klastra komputerowego. Na serwerze wdrożonych jest szereg aplikacji działających na odrębnych maszynach wirtulanych. 
 
-\subsection {Wizualizaja platformy wejściowej} Na rysunku x.x znajduje się schemat wejściowej architektury systemu serwerowego, który w ramach tej pracy ma zostać przekształcony.
-%\begin{center}
-%	\includegraphics[height=100mm]{schemat_os.png}
-%	\captionof{figure}{Schmat warstw systemu operacyjnego}
-%\end{center}
+\subsection {Wizualizaja platformy wejściowej} Na rysunku 3.1 znajduje się schemat wejściowej architektury systemu serwerowego, który w ramach tej pracy ma zostać przekształcony.
+\begin{center}
+\includegraphics[width=120mm]{schemat_archwej.png}
+\captionof{figure}{Schemat architektury wejściowej}
+\end{center}
 
 \section{Architektura docelowa serwisów}
 Koncepcja architektury docelowej polega na zlikwidowaniu pewnej ilości maszyn wirtulanych i przeniesieniu serwisów w nich zawartych do kontenerów znajdujących się w jednej maszynie wirtualnej. Oczywistą korzyścią z tej akcji jest zaoszczędzenie pewnej, być może nawet dużej ilości  pamięci twardej. Nie jest jednak oczywiste, do jakiej zmiany dojdzie w kwestii wydajności. O ile pierwotny układ składa się z jednego poziomu wirtualizacji, tak ten układ będzie się składał z dwóch: wirtualizacji wspomaganej sprzętowo oraz na poziomie systemu operacyjnego.
-%\begin{center}
-%	\includegraphics[height=100mm]{schemat_os.png}
-%	\captionof{figure}{Schmat warstw systemu operacyjnego}
-%\end{center}
+\begin{center}
+\includegraphics[width=120mm]{schemat_archdoc.png}
+\captionof{figure}{Schemat architektury docelowej}
+\end{center}
 
 \chapter{Opis przykładowych aplikacji}
 \section{Opis}
@@ -204,15 +206,30 @@ Baza danych musi istnieć i być dostępna dla aplikacji \textit{Php}
 
 \chapter{Wdrożenie przykładowych oraz rzeczywistych serwisów wydziałowego systemu informatycznego}
 \section{Wdrożenie przykładowych aplikacji}
-Wdrożenie utowrzonego systemu w ramach tej pracy polega na imporcie maszyny wirtualnej zawierającej gotowe środowisko i aplikacje do środowiska VMware ESX na wydziałowym systemie serwerowym. Po rozwiązaniu kliku pomniejszych problemów z konfiguracją dostarczonej maszyny wirtualnej udało się ostatecznie ją zainstalować i uruchomić. Zbudowne ówcześnie kontenery zostały wzbudzone komendą: \texttt{docker-compose up}. Operacja zakończyła się pełnym sukcesem, serwisy działały poprawnie i były widoczne dla wszystkich urządzeń sieci wydziałowej.
+Wdrożenie utowrzonego systemu w ramach tej pracy polega na imporcie maszyny wirtualnej zawierającej gotowe środowisko i aplikacje do środowiska VMware ESX na wydziałowym systemie serwerowym. Po rozwiązaniu kliku pomniejszych problemów z konfiguracją dostarczonej maszyny wirtualnej udało się ostatecznie ją zainstalować i uruchomić. Zbudowne ówcześnie kontenery zostały wzbudzone komendą: \texttt{docker-compose up}. Operacja zakończyła się pełnym sukcesem, serwisy zadziałały poprawnie i były widoczne dla wszystkich urządzeń sieci wydziałowej.
 
 \section{Wdrożenie rzeczywistych serwisów wydziałowego systemu informatycznego}
+Wdrożenie serwisów pochodzących z wydziałowego systemu informatycznego polega na zamienieniu zbudowynych plików wykonywalnych oraz plików interpretowalnych w odpowiednich miejscach drzewa katalogowego z naniesiem ewentualnych zmian w plikach budujących obrazy kontenerów i konfiguracji \textit{docker-compose.yml}.
 
 \chapter{Wnioski}
 
 \chapter{Kod źródłowy}
-\section{Repozytorium Git}
+
+\section{Repozytorium}
+Repozytorium zawierające infrastrukturę projektu wraz z kodami źródłowymi znajduje się pod adresem:\\
+url\\
+Maszyna wirtualna wraz z zawartością powyżeszego odnośnika jest dostępna pod adresem:\\
+url\\
+
 \section{Dołączona płyta CD}
+Dołączona płyta CD zawiera:
+\begin{itemize}[noitemsep]
+	\item Katalog \textit{Praca inzynierska} w którym znajduje się niniejsza praca dyplomowa w formacie \textit{Pdf} wraz z plikami źródłowymi potrzebnymi do jej wygenerowania w środowisku \LaTeX.
+	\item Katalog \textit{Projekt} zawiera kopie repozytorium.
+\end{itemize}
+
+\section{Kod osób trzecich}
+Aplikacja \textit{Java Spring Boot} została zbudowana z przykładowego kodu pochodzącego z oficjalnego samouczka\cite{springboot} na licencji ASLv2
 
 %\chapter {Bibliografia}
 \bibliography{bibliografia}

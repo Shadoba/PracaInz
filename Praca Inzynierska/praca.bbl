@@ -1,174 +1,159 @@
-\begin{thebibliography}{26}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\begin{thebibliography}{10}
 
-\bibitem[apa({\natexlab{a}})]{apache}
-{Httpd Apache}.
-\newblock
-  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm},
-  {\natexlab{a}}.
-\newblock Accessed: 2020-01-14.
-
-\bibitem[apa({\natexlab{b}})]{apachetomcat}
-{Apache Tomcat}.
-\newblock
-  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm},
-  {\natexlab{b}}.
-\newblock Accessed: 2020-01-14.
-
-\bibitem[cor()]{coreos}
-Coreos.
-\newblock
-  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
-\newblock Accessed: 2020-01-14.
-
-\bibitem[deb()]{debian10}
-{Debian 10}.
-\newblock
-  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
-\newblock Accessed: 2020-01-14.
-
-\bibitem[dja()]{django}
-Django.
-\newblock
-  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
-\newblock Accessed: 2020-01-14.
-
-\bibitem[doc({\natexlab{a}})]{docker}
+\bibitem{docker}
 Docker.
 \newblock
-  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm},
-  {\natexlab{a}}.
-\newblock Accessed: 2020-01-14.
-
-\bibitem[doc({\natexlab{b}})]{dockercompose}
-{Docker-compose}.
-\newblock
-  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm},
-  {\natexlab{b}}.
-\newblock Accessed: 2020-01-14.
-
-\bibitem[dot()]{dotnet}
-{.Net}.
-\newblock
   \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
 \newblock Accessed: 2020-01-14.
 
-\bibitem[hyp()]{hyperv}
-Microsoft hyper-v.
-\newblock
-  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
-\newblock Accessed: 2020-01-14.
-
-\bibitem[jav()]{java}
-Java.
-\newblock
-  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
-\newblock Accessed: 2020-01-14.
-
-\bibitem[lxc()]{lxc}
+\bibitem{lxc}
 Lxc.
 \newblock
   \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
 \newblock Accessed: 2020-01-14.
 
-\bibitem[mys()]{mysql}
-Mysql.
+\bibitem{vmwareesx}
+{VMware ESX}.
 \newblock
   \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
 \newblock Accessed: 2020-01-14.
 
-\bibitem[php()]{php}
+\bibitem{php}
 Php.
 \newblock
   \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
 \newblock Accessed: 2020-01-14.
 
-\bibitem[pos()]{postgresql}
-Postgresql.
+\bibitem{java}
+Java.
 \newblock
   \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
 \newblock Accessed: 2020-01-14.
 
-\bibitem[pyt()]{python}
-Python.
-\newblock
-  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
-\newblock Accessed: 2020-01-14.
-
-\bibitem[qem()]{qemu}
-{QEMU}.
-\newblock
-  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
-\newblock Accessed: 2020-01-14.
-
-\bibitem[sol()]{solaris}
-{Oracle Solaris Containers}.
-\newblock
-  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
-\newblock Accessed: 2020-01-14.
-
-\bibitem[spr()]{springboot}
+\bibitem{springboot}
 {Spring Boot framework}.
 \newblock
   \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
 \newblock Accessed: 2020-01-14.
 
-\bibitem[vir()]{virtualbox}
-{Oracle VirtualBox}.
+\bibitem{postgresql}
+Postgresql.
 \newblock
   \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
 \newblock Accessed: 2020-01-14.
 
-\bibitem[vmw({\natexlab{a}})]{vmwareesx}
-{VMware ESX}.
+\bibitem{debian10}
+{Debian 10}.
 \newblock
-  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm},
-  {\natexlab{a}}.
+  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
 \newblock Accessed: 2020-01-14.
 
-\bibitem[vmw({\natexlab{b}})]{vmwareplayer}
-{VMware Player}.
+\bibitem{apachetomcat}
+{Apache Tomcat}.
 \newblock
-  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm},
-  {\natexlab{b}}.
+  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
 \newblock Accessed: 2020-01-14.
 
-\bibitem[vmw({\natexlab{c}})]{vmwareworkstation}
-{VMware Workstation}.
+\bibitem{python}
+Python.
 \newblock
-  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm},
-  {\natexlab{c}}.
+  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
 \newblock Accessed: 2020-01-14.
 
-\bibitem[win({\natexlab{a}})]{windows}
-{Microsoft Windows}.
+\bibitem{django}
+Django.
 \newblock
-  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm},
-  {\natexlab{a}}.
+  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
 \newblock Accessed: 2020-01-14.
 
-\bibitem[win({\natexlab{b}})]{wine}
-Wine.
-\newblock
-  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm},
-  {\natexlab{b}}.
-\newblock Accessed: 2020-01-14.
-
-\bibitem[wor()]{wordpress}
+\bibitem{wordpress}
 Cms wordpress.
 \newblock
   \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
 \newblock Accessed: 2020-01-14.
 
-\bibitem[{Gianluca Borello}(2017)]{sd17}
+\bibitem{mysql}
+Mysql.
+\newblock
+  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
+\newblock Accessed: 2020-01-14.
+
+\bibitem{vmwareworkstation}
+{VMware Workstation}.
+\newblock
+  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
+\newblock Accessed: 2020-01-14.
+
+\bibitem{virtualbox}
+{Oracle VirtualBox}.
+\newblock
+  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
+\newblock Accessed: 2020-01-14.
+
+\bibitem{coreos}
+Coreos.
+\newblock
+  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
+\newblock Accessed: 2020-01-14.
+
+\bibitem{solaris}
+{Oracle Solaris Containers}.
+\newblock
+  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
+\newblock Accessed: 2020-01-14.
+
+\bibitem{dotnet}
+{.Net}.
+\newblock
+  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
+\newblock Accessed: 2020-01-14.
+
+\bibitem{wine}
+Wine.
+\newblock
+  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
+\newblock Accessed: 2020-01-14.
+
+\bibitem{windows}
+{Microsoft Windows}.
+\newblock
+  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
+\newblock Accessed: 2020-01-14.
+
+\bibitem{hyperv}
+Microsoft hyper-v.
+\newblock
+  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
+\newblock Accessed: 2020-01-14.
+
+\bibitem{vmwareplayer}
+{VMware Player}.
+\newblock
+  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
+\newblock Accessed: 2020-01-14.
+
+\bibitem{qemu}
+{QEMU}.
+\newblock
+  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
+\newblock Accessed: 2020-01-14.
+
+\bibitem{sd17}
 {Gianluca Borello}.
 \newblock {Container isolation gone wrong}.
 \newblock 2017.
-\newblock URL \url{https://sysdig.com/blog/container-isolation-gone-wrong/}.
+\newblock Accessed: 2020-01-14.
+
+\bibitem{dockercompose}
+{Docker-compose}.
+\newblock
+  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
+\newblock Accessed: 2020-01-14.
+
+\bibitem{apache}
+{Httpd Apache}.
+\newblock
+  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
 \newblock Accessed: 2020-01-14.
 
 \end{thebibliography}
