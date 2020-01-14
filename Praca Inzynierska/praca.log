@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.26)  13 JAN 2020 10:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.26)  14 JAN 2020 20:05
 entering extended mode
 **./praca.tex
 (praca.tex
@@ -453,6 +453,13 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 ("C:\Program Files\MiKTeX 2.9\tex/latex/capt-of\capt-of.sty"
 Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
 )
+("C:\Program Files\MiKTeX 2.9\tex/latex/natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip51
+\bibsep=\skip52
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count266
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -460,19 +467,19 @@ Package csquotes Info: Redefining alias 'default' -> 'polish'.
  (praca.aux)
 \openout1 = `praca.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 24
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 27
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmr.fd"
@@ -513,14 +520,14 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 24.
+LaTeX Info: Redefining \microtypecontext on input line 27.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 24.
+LaTeX Info: Redefining \showhyphens on input line 27.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -530,16 +537,16 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 )
 ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count266
+\scratchcounter=\count267
 \scratchdimen=\dimen152
 \scratchbox=\box49
-\nofMPsegments=\count267
-\nofMParguments=\count268
+\nofMPsegments=\count268
+\nofMParguments=\count269
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count269
+\MPscratchCnt=\count270
 \MPscratchDim=\dimen153
-\MPnumerator=\count270
-\makeMPintoPDFobject=\count271
+\MPnumerator=\count271
+\makeMPintoPDFobject=\count272
 \everyMPtoPDFconversion=\toks24
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2019/11/24 v2.7 Base part for package epstopdf
@@ -573,7 +580,7 @@ pdf>
 (epstopdf)                    size: 9339 bytes
 (epstopdf)             Command: <epstopdf --outfile=agh_nzw_a_pl_3w_wbr_cmyk-ep
 s-converted-to.pdf agh_nzw_a_pl_3w_wbr_cmyk.eps>
-(epstopdf)             \includegraphics on input line 27.
+(epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -585,10 +592,10 @@ pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: agh_nzw_a_pl_3w_wbr_cmyk-eps-converted-to.pdf Graphic file (type pdf)
 <use agh_nzw_a_pl_3w_wbr_cmyk-eps-converted-to.pdf>
 Package pdftex.def Info: agh_nzw_a_pl_3w_wbr_cmyk-eps-converted-to.pdf  used on
- input line 27.
+ input line 30.
 (pdftex.def)             Requested size: 181.48898pt x 106.69783pt.
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 2
-9.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 3
+2.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -602,36 +609,36 @@ Package microtype Info: Loading generic protrusion settings for font family
 {C:/Users/Shadoba/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./agh_nzw
 _a_pl_3w_wbr_cmyk-eps-converted-to.pdf>] [1]
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
-3.
+6.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
-3.
+6.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-63.
+66.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-63.
+66.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 63.
+(Font)              <12> on input line 66.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 63.
+(Font)              <8> on input line 66.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 63.
+(Font)              <6> on input line 66.
 
-Overfull \hbox (63.94745pt too wide) in paragraph at lines 63--68
+Overfull \hbox (63.94745pt too wide) in paragraph at lines 66--71
  [] 
  []
 
@@ -647,31 +654,45 @@ Rozdzia\l  1.
 
 ] [6] [7]
 Rozdzia\l  2.
-<schemat_os.png, id=37, 120.45pt x 120.45pt>
+<schemat_os.png, id=38, 120.45pt x 120.45pt>
 File: schemat_os.png Graphic file (type png)
 <use schemat_os.png>
-Package pdftex.def Info: schemat_os.png  used on input line 92.
+Package pdftex.def Info: schemat_os.png  used on input line 95.
 (pdftex.def)             Requested size: 284.5554pt x 284.52756pt.
 [8
 
-] [9 <./schemat_os.png>] [10] [11] [12]
+] [9 <./schemat_os.png>] [10]
+
+Package natbib Warning: Citation `VMware Workstation' on page 11 undefined on i
+nput line 122.
+
+[11] [12]
 Rozdzia\l  3.
 [13
 
 ]
 Rozdzia\l  4.
 LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 1
-57.
+60.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 157.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 160.
  [14
 
 ] [15] [16]
 Rozdzia\l  5.
-[17
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+07.
+("C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [17
 
 ]
 Rozdzia\l  6.
@@ -679,34 +700,208 @@ Rozdzia\l  6.
 
 ]
 Rozdzia\l  7.
-[19
+(praca.bbl [19
 
 ]
-Rozdzia\l  8.
+Overfull \hbox (212.84448pt too wide) in paragraph at lines 9--14
+[]\T1/lmr/m/n/12 (-20) Httpd Apa-che.  \T1/lmtt/m/n/12 http://web.archive.org/w
+eb/20080207010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lmr/m/n/12 (
+-20) ,
+ []
+
+
+Overfull \hbox (220.17923pt too wide) in paragraph at lines 16--21
+[]\T1/lmr/m/n/12 (-20) Apache Tom-cat.  \T1/lmtt/m/n/12 http://web.archive.org/
+web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lmr/m/n/12 
+(-20) ,
+ []
+
+
+Overfull \hbox (175.75403pt too wide) in paragraph at lines 23--27
+[]\T1/lmr/m/n/12 (-20) Coreos.  \T1/lmtt/m/n/12 http://web.archive.org/web/2008
+0207010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lmr/m/n/12 (-20) .
+ []
+
+
+Overfull \hbox (191.57451pt too wide) in paragraph at lines 29--33
+[]\T1/lmr/m/n/12 (-20) Debian 10.  \T1/lmtt/m/n/12 http://web.archive.org/web/2
+0080207010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lmr/m/n/12 (-20)
+ .
+ []
+
+
+Overfull \hbox (177.76819pt too wide) in paragraph at lines 35--39
+[]\T1/lmr/m/n/12 (-20) Django.  \T1/lmtt/m/n/12 http://web.archive.org/web/2008
+0207010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lmr/m/n/12 (-20) .
+ []
+
+
+Overfull \hbox (177.44768pt too wide) in paragraph at lines 41--46
+[]\T1/lmr/m/n/12 (-20) Docker.  \T1/lmtt/m/n/12 http://web.archive.org/web/2008
+0207010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lmr/m/n/12 (-20) ,
+ []
+
+
+Overfull \hbox (223.89803pt too wide) in paragraph at lines 48--53
+[]\T1/lmr/m/n/12 (-20) Docker-compose.  \T1/lmtt/m/n/12 http://web.archive.org/
+web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lmr/m/n/12 
+(-20) ,
+ []
+
+
+Overfull \hbox (163.21136pt too wide) in paragraph at lines 55--59
+[]\T1/lmr/m/n/12 (-20) .Net.  \T1/lmtt/m/n/12 http://web.archive.org/web/200802
+07010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lmr/m/n/12 (-20) .
+ []
+
+
+Overfull \hbox (230.17923pt too wide) in paragraph at lines 61--65
+[]\T1/lmr/m/n/12 (-20) Microsoft hyper-v.  \T1/lmtt/m/n/12 http://web.archive.o
+rg/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lmr/m/n/
+12 (-20) .
+ []
+
+
+Overfull \hbox (164.31384pt too wide) in paragraph at lines 67--71
+[]\T1/lmr/m/n/12 (-20) Java.  \T1/lmtt/m/n/12 http://web.archive.org/web/200802
+07010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lmr/m/n/12 (-20) .
+ []
+
+
+Overfull \hbox (160.17502pt too wide) in paragraph at lines 73--77
+[]\T1/lmr/m/n/12 (-20) Lxc.  \T1/lmtt/m/n/12 http://web.archive.org/web/2008020
+7010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lmr/m/n/12 (-20) .
+ []
+
+
+Overfull \hbox (172.23264pt too wide) in paragraph at lines 79--83
+[]\T1/lmr/m/n/12 (-20) Mysql.  \T1/lmtt/m/n/12 http://web.archive.org/web/20080
+207010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lmr/m/n/12 (-20) .
+ []
+
+
+Overfull \hbox (162.4148pt too wide) in paragraph at lines 85--89
+[]\T1/lmr/m/n/12 (-20) Php.  \T1/lmtt/m/n/12 http://web.archive.org/web/2008020
+7010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lmr/m/n/12 (-20) .
+ []
+
 [20
 
-] (praca.aux) ) 
+]
+Overfull \hbox (193.24211pt too wide) in paragraph at lines 91--95
+[]\T1/lmr/m/n/12 (-20) Postgresql.  \T1/lmtt/m/n/12 http://web.archive.org/web/
+20080207010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lmr/m/n/12 (-20
+) .
+ []
+
+
+Overfull \hbox (178.72772pt too wide) in paragraph at lines 97--101
+[]\T1/lmr/m/n/12 (-20) Python.  \T1/lmtt/m/n/12 http://web.archive.org/web/2008
+0207010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lmr/m/n/12 (-20) .
+ []
+
+
+Overfull \hbox (177.75964pt too wide) in paragraph at lines 103--107
+[]\T1/lmr/m/n/12 (-20) QEMU.  \T1/lmtt/m/n/12 http://web.archive.org/web/200802
+07010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lmr/m/n/12 (-20) .
+ []
+
+
+Overfull \hbox (267.07652pt too wide) in paragraph at lines 109--113
+[]\T1/lmr/m/n/12 (-20) Oracle So-la-ris Con-ta-iners.  \T1/lmtt/m/n/12 http://w
+eb.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm
+\T1/lmr/m/n/12 (-20) .
+ []
+
+
+Overfull \hbox (256.87817pt too wide) in paragraph at lines 115--119
+[]\T1/lmr/m/n/12 (-20) Spring Boot fra-me-work.  \T1/lmtt/m/n/12 http://web.arc
+hive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lm
+r/m/n/12 (-20) .
+ []
+
+
+Overfull \hbox (232.8251pt too wide) in paragraph at lines 121--125
+[]\T1/lmr/m/n/12 (-20) Oracle Vir-tu-al-Box.  \T1/lmtt/m/n/12 http://web.archiv
+e.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lmr/m
+/n/12 (-20) .
+ []
+
+
+Overfull \hbox (210.43283pt too wide) in paragraph at lines 127--132
+[]\T1/lmr/m/n/12 (-20) VMware ESX.  \T1/lmtt/m/n/12 http://web.archive.org/web/
+20080207010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lmr/m/n/12 (-20
+) ,
+ []
+
+
+Overfull \hbox (219.37994pt too wide) in paragraph at lines 134--139
+[]\T1/lmr/m/n/12 (-20) VMware Player.  \T1/lmtt/m/n/12 http://web.archive.org/w
+eb/20080207010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lmr/m/n/12 (
+-20) ,
+ []
+
+
+Overfull \hbox (249.3423pt too wide) in paragraph at lines 141--146
+[]\T1/lmr/m/n/12 (-20) VMware Work-sta-tion.  \T1/lmtt/m/n/12 http://web.archiv
+e.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lmr/m
+/n/12 (-20) ,
+ []
+
+
+Overfull \hbox (238.5553pt too wide) in paragraph at lines 148--153
+[]\T1/lmr/m/n/12 (-20) Microsoft Win-dows.  \T1/lmtt/m/n/12 http://web.archive.
+org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lmr/m/n
+/12 (-20) ,
+ []
+
+
+Overfull \hbox (168.97581pt too wide) in paragraph at lines 155--160
+[]\T1/lmr/m/n/12 (-20) Wine.  \T1/lmtt/m/n/12 http://web.archive.org/web/200802
+07010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lmr/m/n/12 (-20) ,
+ []
+
+
+Overfull \hbox (216.55038pt too wide) in paragraph at lines 162--166
+[]\T1/lmr/m/n/12 (-20) Cms word-press.  \T1/lmtt/m/n/12 http://web.archive.org/
+web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm\T1/lmr/m/n/12 
+(-20) .
+ []
+
+
+Underfull \hbox (badness 2809) in paragraph at lines 168--173
+[]\T1/lmr/m/n/12 (+20) Gianluca Bo-rello.  Con-ta-iner iso-la-tion gone wrong. 
+ 2017.  URL
+ []
+
+)
+
+Package natbib Warning: There were undefined citations.
+
+[21] (praca.aux) ) 
 Here is how much of TeX's memory you used:
- 16930 strings out of 492484
- 305401 string characters out of 3131044
- 410687 words of memory out of 3000000
- 20995 multiletter control sequences out of 15000+200000
- 607425 words of font info for 107 fonts, out of 3000000 for 9000
+ 17439 strings out of 492484
+ 311883 string characters out of 3131044
+ 417060 words of memory out of 3000000
+ 21442 multiletter control sequences out of 15000+200000
+ 619144 words of font info for 134 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,6n,67p,2869b,360s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C
-:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on praca.pdf (21 pages, 264376 bytes).
+ 45i,6n,67p,2975b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:
+/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/Mi
+KTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmb
+xi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
+Output written on praca.pdf (22 pages, 329037 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
+ 130 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 22539 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 25611 words of extra memory for PDF output out of 29859 (max. 10000000)
 

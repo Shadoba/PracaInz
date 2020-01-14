@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: praca.aux
+The style file: abbrvnat.bst
+White space in argument---line 50 of file praca.aux
+ : \citation{VMware
+ :                  Workstation}
+I'm skipping whatever remains of this command
+Database file #1: bibliografia.bib
+Repeated entry---line 106 of file bibliografia.bib
+ : @misc{coreos
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 121 of file bibliografia.bib
+ : @misc{vmwareworkstation
+ :                        ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in docker
+Warning--to sort, need author or key in lxc
+Warning--to sort, need author or key in vmwareesx
+Warning--to sort, need author or key in php
+Warning--to sort, need author or key in java
+Warning--to sort, need author or key in springboot
+Warning--to sort, need author or key in postgresql
+Warning--to sort, need author or key in debian10
+Warning--to sort, need author or key in apachetomcat
+Warning--to sort, need author or key in python
+Warning--to sort, need author or key in django
+Warning--to sort, need author or key in wordpress
+Warning--to sort, need author or key in mysql
+Warning--to sort, need author or key in vmwareworkstation
+Warning--to sort, need author or key in virtualbox
+Warning--to sort, need author or key in coreos
+Warning--to sort, need author or key in solaris
+Warning--to sort, need author or key in dotnet
+Warning--to sort, need author or key in wine
+Warning--to sort, need author or key in windows
+Warning--to sort, need author or key in hyperv
+Warning--to sort, need author or key in vmwareplayer
+Warning--to sort, need author or key in qemu
+Warning--to sort, need author or key in dockercompose
+Warning--to sort, need author or key in apache
+Warning--empty year in apache
+Warning--empty year in apachetomcat
+Warning--empty year in coreos
+Warning--empty year in debian10
+Warning--empty year in django
+Warning--empty year in docker
+Warning--empty year in dockercompose
+Warning--empty year in dotnet
+Warning--empty year in hyperv
+Warning--empty year in java
+Warning--empty year in lxc
+Warning--empty year in mysql
+Warning--empty year in php
+Warning--empty year in postgresql
+Warning--empty year in python
+Warning--empty year in qemu
+Warning--empty year in solaris
+Warning--empty year in springboot
+Warning--empty year in virtualbox
+Warning--empty year in vmwareesx
+Warning--empty year in vmwareplayer
+Warning--empty year in vmwareworkstation
+Warning--empty year in windows
+Warning--empty year in wine
+Warning--empty year in wordpress
+Warning--empty journal in sd17
+(There were 3 error messages)
