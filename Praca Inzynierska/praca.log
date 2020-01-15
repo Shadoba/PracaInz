@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.26)  15 JAN 2020 03:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.26)  15 JAN 2020 04:53
 entering extended mode
 **./praca.tex
 (praca.tex
@@ -759,8 +759,8 @@ _a_pl_3w_wbr_cmyk-eps-converted-to.pdf>]pdfTeX warning (ext4): destination with
  the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.54 \newpage
-              [1]
+l.54 	\newpage
+               [1]
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
 7.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
@@ -830,15 +830,15 @@ Rozdzia\l  2.
 <schemat_os.png, id=257, 120.45pt x 120.45pt>
 File: schemat_os.png Graphic file (type png)
 <use schemat_os.png>
-Package pdftex.def Info: schemat_os.png  used on input line 97.
+Package pdftex.def Info: schemat_os.png  used on input line 96.
 (pdftex.def)             Requested size: 455.24408pt x 455.28865pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 98.
+(caption)                particular \caption on input line 97.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (28.4523pt too wide) in paragraph at lines 97--98
+Overfull \hbox (28.4523pt too wide) in paragraph at lines 96--97
  [] 
  []
 
@@ -848,36 +848,36 @@ Overfull \hbox (28.4523pt too wide) in paragraph at lines 97--98
 <schemat_hiper1.png, id=290, 252.34274pt x 381.8265pt>
 File: schemat_hiper1.png Graphic file (type png)
 <use schemat_hiper1.png>
-Package pdftex.def Info: schemat_hiper1.png  used on input line 120.
+Package pdftex.def Info: schemat_hiper1.png  used on input line 118.
 (pdftex.def)             Requested size: 341.43306pt x 516.69034pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 121.
+(caption)                particular \caption on input line 119.
 See the caption package documentation for explanation.
 
 [11]
 <schemat_hiper2.png, id=303, 333.6465pt x 456.5055pt>
 File: schemat_hiper2.png Graphic file (type png)
 <use schemat_hiper2.png>
-Package pdftex.def Info: schemat_hiper2.png  used on input line 127.
+Package pdftex.def Info: schemat_hiper2.png  used on input line 125.
 (pdftex.def)             Requested size: 341.43306pt x 467.1828pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 128.
+(caption)                particular \caption on input line 126.
 See the caption package documentation for explanation.
 
 [12 <./schemat_hiper1.png>]
 <schemat_kont.png, id=312, 325.81725pt x 305.34074pt>
 File: schemat_kont.png Graphic file (type png)
 <use schemat_kont.png>
-Package pdftex.def Info: schemat_kont.png  used on input line 134.
+Package pdftex.def Info: schemat_kont.png  used on input line 132.
 (pdftex.def)             Requested size: 398.33858pt x 373.3072pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 135.
+(caption)                particular \caption on input line 133.
 See the caption package documentation for explanation.
 
 [13 <./schemat_hiper2.png>] [14 <./schemat_kont.png>] [15]
@@ -885,11 +885,11 @@ Rozdzia\l  3.
 <schemat_archwej.png, id=330, 250.536pt x 381.8265pt>
 File: schemat_archwej.png Graphic file (type png)
 <use schemat_archwej.png>
-Package pdftex.def Info: schemat_archwej.png  used on input line 146.
+Package pdftex.def Info: schemat_archwej.png  used on input line 144.
 (pdftex.def)             Requested size: 341.43306pt x 520.36084pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 147.
+(caption)                particular \caption on input line 145.
 See the caption package documentation for explanation.
 
 [16
@@ -898,44 +898,44 @@ See the caption package documentation for explanation.
 <schemat_archdoc.png, id=340, 248.127pt x 381.8265pt>
 File: schemat_archdoc.png Graphic file (type png)
 <use schemat_archdoc.png>
-Package pdftex.def Info: schemat_archdoc.png  used on input line 153.
+Package pdftex.def Info: schemat_archdoc.png  used on input line 151.
 (pdftex.def)             Requested size: 341.43306pt x 525.40633pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 154.
+(caption)                particular \caption on input line 152.
 See the caption package documentation for explanation.
 
 [18 <./schemat_archdoc.png>]
 Rozdzia\l  4.
 LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 1
-63.
+61.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 163.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 161.
  [19
 
 ] [20]
 <dockerfile_java.png, id=373, 496.254pt x 72.27pt>
 File: dockerfile_java.png Graphic file (type png)
 <use dockerfile_java.png>
-Package pdftex.def Info: dockerfile_java.png  used on input line 209.
+Package pdftex.def Info: dockerfile_java.png  used on input line 207.
 (pdftex.def)             Requested size: 455.24408pt x 66.2973pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 210.
+(caption)                particular \caption on input line 208.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (28.4523pt too wide) in paragraph at lines 209--210
+Overfull \hbox (28.4523pt too wide) in paragraph at lines 207--208
  [] 
  []
 
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-12.
+10.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -943,40 +943,41 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<dockerfile_php.png, id=375, 740.7675pt x 502.2765pt>
+ [21 <./dockerfile_java.png>]
+<dockerfile_php.png, id=384, 740.7675pt x 502.2765pt>
 File: dockerfile_php.png Graphic file (type png)
 <use dockerfile_php.png>
-Package pdftex.def Info: dockerfile_php.png  used on input line 216.
+Package pdftex.def Info: dockerfile_php.png  used on input line 214.
 (pdftex.def)             Requested size: 455.24408pt x 308.6798pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 217.
+(caption)                particular \caption on input line 215.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (28.4523pt too wide) in paragraph at lines 216--217
+Overfull \hbox (28.4523pt too wide) in paragraph at lines 214--215
  [] 
  []
 
-[21 <./dockerfile_java.png>]
-<docker_compose.png, id=389, 423.984pt x 413.74574pt>
+[22 <./dockerfile_php.png>]
+<docker_compose.png, id=394, 423.984pt x 413.74574pt>
 File: docker_compose.png Graphic file (type png)
 <use docker_compose.png>
-Package pdftex.def Info: docker_compose.png  used on input line 223.
+Package pdftex.def Info: docker_compose.png  used on input line 221.
 (pdftex.def)             Requested size: 455.24408pt x 444.26295pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 224.
+(caption)                particular \caption on input line 222.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (28.4523pt too wide) in paragraph at lines 223--224
+Overfull \hbox (28.4523pt too wide) in paragraph at lines 221--222
  [] 
  []
 
-[22 <./dockerfile_php.png>] [23 <./docker_compose.png>]
+[23 <./docker_compose.png>]
 Rozdzia\l  5.
 [24
 
@@ -986,111 +987,47 @@ Rozdzia\l  6.
 
 ]
 Rozdzia\l  7.
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--245
-
- []
-
 (praca.bbl [26
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 4--8
-[]\T1/lmr/m/n/12 (+20) Docker.  []$\T1/lmtt/m/n/12 http : / / web . archive . o
-rg / web / 20080207010024 / http : / / www .
+Underfull \hbox (badness 6592) in paragraph at lines 14--17
+[]\T1/lmr/m/n/12 (+20) VMware, Inc., VMware ESX.  []$\T1/lmtt/m/n/12 https : / 
+/ www . vmware . com / products /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--14
-[]\T1/lmr/m/n/12 (+20) Lxc.  []$\T1/lmtt/m/n/12 http : / / web . archive . org 
-/ web / 20080207010024 / http : / / www .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
-[]\T1/lmr/m/n/12 (+20) Php.  []$\T1/lmtt/m/n/12 http : / / web . archive . org 
-/ web / 20080207010024 / http : / / www .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--32
-[]\T1/lmr/m/n/12 (+20) Java.  []$\T1/lmtt/m/n/12 http : / / web . archive . org
- / web / 20080207010024 / http : / / www .
- []
-
-
-Underfull \hbox (badness 2726) in paragraph at lines 40--44
-[]\T1/lmr/m/n/12 (+20) Postgresql.  []$\T1/lmtt/m/n/12 http : / / web . archive
- . org / web / 20080207010024 / http : / / www .
- []
-
-
-Underfull \hbox (badness 1253) in paragraph at lines 46--50
-[]\T1/lmr/m/n/12 (+20) Debian 10.  []$\T1/lmtt/m/n/12 http : / / web . archive 
-. org / web / 20080207010024 / http : / / www .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--62
-[]\T1/lmr/m/n/12 (+20) Python.  []$\T1/lmtt/m/n/12 http : / / web . archive . o
-rg / web / 20080207010024 / http : / / www .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--68
-[]\T1/lmr/m/n/12 (+20) Django.  []$\T1/lmtt/m/n/12 http : / / web . archive . o
-rg / web / 20080207010024 / http : / / www .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--80
-[]\T1/lmr/m/n/12 (+20) Mysql.  []$\T1/lmtt/m/n/12 http : / / web . archive . or
-g / web / 20080207010024 / http : / / www .
+Underfull \hbox (badness 2435) in paragraph at lines 69--72
+[]\T1/lmr/m/n/12 (+20) VMware, Inc., VMware Work-sta-tion Pro.  []$\T1/lmtt/m/n
+/12 https : / / www . vmware . com /
  []
 
 [27
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 94--98
-[]\T1/lmr/m/n/12 (+20) Coreos.  []$\T1/lmtt/m/n/12 http : / / web . archive . o
-rg / web / 20080207010024 / http : / / www .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--110
-[]\T1/lmr/m/n/12 (+20) .Net.  []$\T1/lmtt/m/n/12 http : / / web . archive . org
- / web / 20080207010024 / http : / / www .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--116
-[]\T1/lmr/m/n/12 (+20) Wine.  []$\T1/lmtt/m/n/12 http : / / web . archive . org
- / web / 20080207010024 / http : / / www .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--140
-[]\T1/lmr/m/n/12 (+20) QEMU.  []$\T1/lmtt/m/n/12 http : / / web . archive . org
- / web / 20080207010024 / http : / / www .
- []
-
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 257.
  [28]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
  (praca.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 259.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
-Package rerunfilecheck Info: File `praca.out' has not changed.
-(rerunfilecheck)             Checksum: B050E0344CDE85437DF77E5285BFB177;2617.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
+
+
+Package rerunfilecheck Warning: File `praca.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `praca.out':
+(rerunfilecheck)             Before: B050E0344CDE85437DF77E5285BFB177;2617
+(rerunfilecheck)             After:  4D467E1D93A7E1AF07D2EA185630E57B;2619.
  ) 
 Here is how much of TeX's memory you used:
- 22205 strings out of 492484
- 389084 string characters out of 3131044
- 518283 words of memory out of 3000000
- 26004 multiletter control sequences out of 15000+200000
- 622705 words of font info for 140 fonts, out of 3000000 for 9000
+ 22200 strings out of 492484
+ 389031 string characters out of 3131044
+ 514283 words of memory out of 3000000
+ 26003 multiletter control sequences out of 15000+200000
+ 622523 words of font info for 138 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,6n,67p,2975b,623s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,6n,67p,2981b,589s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
 nc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
@@ -1104,9 +1041,9 @@ s/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
 /lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on praca.pdf (29 pages, 766907 bytes).
+Output written on praca.pdf (29 pages, 765886 bytes).
 PDF statistics:
- 544 PDF objects out of 1000 (max. 8388607)
+ 530 PDF objects out of 1000 (max. 8388607)
  109 named destinations out of 1000 (max. 500000)
  26448 words of extra memory for PDF output out of 29859 (max. 10000000)
 

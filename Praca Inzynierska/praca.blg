@@ -1,13 +1,5 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: praca.aux
 The style file: unsrt.bst
 Database file #1: bibliografia.bib
-Repeated entry---line 106 of file bibliografia.bib
- : @misc{coreos
- :             ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 121 of file bibliografia.bib
- : @misc{vmwareworkstation
- :                        ,
-I'm skipping whatever remains of this entry
 Warning--empty journal in sd17
-(There were 2 error messages)
+(There was 1 warning)
