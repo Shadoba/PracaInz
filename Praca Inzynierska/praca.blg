@@ -1,5 +1,8 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: praca.aux
 The style file: unsrt.bst
+Illegal, another \bibstyle command---line 134 of file praca.aux
+ : \bibstyle
+ :          {plainnat}
+I'm skipping whatever remains of this command
 Database file #1: bibliografia.bib
-Warning--empty journal in sd17
-(There was 1 warning)
+(There was 1 error message)

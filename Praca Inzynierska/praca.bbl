@@ -119,9 +119,10 @@ Microsoft, hyper-v.
 
 \bibitem{sd17}
 {Gianluca Borello}.
-\newblock {Container isolation gone wrong}.
-\newblock 2017.
-\newblock Accessed: 2020-01-14.
+\newblock {\em {Container isolation gone wrong}}.
+\newblock {Sysdig, Inc.}, 2017.
+\newblock \url{https://sysdig.com/blog/container-isolation-gone-wrong/}.
+  Accessed: 2020-01-14.
 
 \bibitem{dockercompose}
 {Docker, Inc., Docker-compose}.
