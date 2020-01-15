@@ -18,6 +18,7 @@
 \usepackage{enumitem}
 \usepackage{afterpage}
 \usepackage{capt-of}
+\usepackage{caption}
 \usepackage[numbers]{natbib}
 \usepackage{hyperref}
 
@@ -92,10 +93,8 @@ Celem projektowej części pracy jest opracowanie skalowalnego środowiska usłu
 Szeroko rozumiane urządzenie zwane komputerem składa się z dwóch kategorii komponentów: urządzeń fizycznych i oprogramowania. W skład urządzeń fizycznych wchodzą między innymi płyta główna, centralna jednostka przetwarzająca i urządzenia wejścia/wyjścia. Oprogramowanie składa się z warstw, najniżej, najbliżej sprzętu znajduje się oprogramownie do zarządzania i komunikacji z urządzaniami, w wyższych warstwach znajdziemy aplikacje użytkowe. Zadaniem systemu operacyjnego jest zarządzanie zarówno zasobami sprzętowymi jak i oprogramowaniem. Stanowi on interfejs pomiędzy maszyną a użytkownikem, umożliwiając tym samym stosowanie komputerów do celów osobistych znanych nam z życia codziennego i profesjonalnych na linii człowiek - maszyna, ale i maszyna - maszyna. Ideą systemu operacyjnego jest istnienie środowiska, które dynamicznie będzie tłumaczyć zlecenia użytkownika na język maszynowy, następnie zlecać sprzętowi ich wykonanie i w drugą stronę informować użytkownia o rezultatach pracy maszyny oraz jej zapotrzebowaniu na dane, zachowując jednocześnie optymalne działanie pracy całego systemu i zawartych w nim urządzeń.
    
 \begin{center}
-\begin{samepage}
 \includegraphics[width=160mm]{schemat_os.png}
 \captionof{figure}{Schemat warstw systemu operacyjnego}
-\end{samepage}
 \end{center}
 
 Na rysunku 2.1 przedstawiony jest schemat budowy systemu operacyjnego. W skład samego systemu operacyjnego wchodzą sterowniki, jądro i powłoki systemowe. System operacyjny jest również podzielony na przestrzenie jądra i użytkownika. Wirtualizacja zatem jest symulacją warstwy fizycznej komputera, na której można zainstalować i używać dowolny system operacyjny. Zasymulować można różnego rodzaju architektury i parametry sprzętowe, zalecane jest jednak by wirtualna platforma sprzętowa nie przekraczała możliwości rzeczywistego sprzętu. Wirtualizacji można dokonać na kilku poziomach. 
@@ -197,12 +196,31 @@ Z racji tego, iż wybranym system opercyjnym gospodarza dla kontenerów jest \te
 \subsubsection{Docker-compose}
 W przypadku kiedy w systemie pracuje wiele kontenerów pojawia się problem zarządzania nimi. Uruchamianie każdego kontenera z wiersza poleceń jest żmudnym i podatnym na pomyłki procesem. Zastosowanie skryptu np. w powłoce bash cechowałoby się nie małą nieprzerzystością. Programem służącym do tego celu jest \textit{Docker-compose}. Pozwala on budowanie i uruchamianie wielu kontenerów docker jednocześnie. Tak jak \textit{Docker}\cite{docker}, \textit{Docker-compose}\cite{dockercompose} wymaga pliku konfiguracyjnego, tym razem w notacji \textit{YAML} i o rozszerzeniu \textit{docker-compose.yml}. W tym pliku są zawarte lokacje plików dockerfile i parametry służące do budowy i uruchomienia obrazu oraz konfiguracja sterowników np. sieciowych. 
 \subsubsection{Aplikacja Java Spring Boot}
-Realizuje prosty zadanie, tworzy serwis internetowy i wyświetla przykłądowy napis oknie przeglądarki.
+Realizuje proste zadanie, tworzy serwis internetowy i wyświetla przykłądowy napis oknie przeglądarki.
 \subsubsection{Aplikacja Php}
 Zadaniem tej aplikacji jest zainicjalizowanie bazy danych i udostępnienie za pośrednictwem strony \textit{www} interfejsu \textit{CRUD} do tej bazy.
 \subsubsection{Baza danych PostgreSQL}
 Baza danych musi istnieć i być dostępna dla aplikacji \textit{Php}
 \section{Zrealizowane pliki dockerfile}
+\subsection{Aplikacja Java Spring Boot}
+\begin{center}
+\includegraphics[width=160mm]{dockerfile_java.png}
+\captionof{figure}{Plik dockerfile dla aplikacji Java Spring Boot}
+\end{center}
+Na rysunku 4.1 widać, że kontener jest budowany na podstawie obrazu zawierającego środowisko deweloperskie \textit{Java 8}\cite{java}. W linii drugiej tworzony jest wolumin który domyślnie znjaduje się w tym samym katalogu co \textit{dockerfile} i ten katalog będzie zawierać bieżącą zawartość folderu \texttt{/tmp} w kontenerze.
+
+\subsection{Aplikacja Php}
+\begin{center}
+\includegraphics[width=160mm]{dockerfile_php.png}
+\captionof{figure}{Plik dockerfile dla aplikacji Php}
+\end{center}
+W pliku widniejącym na rysunku 4.2 między liniami 5 i 20 pobierane są potzzebne do funkcjonowania biblioteki. W kolejnej części ustawiane są zmienne globalne dla środowiska \textit{Apache}\cite{apache} oraz w 35-tej linii kopiowany plik konfiguracyjny. Aplikacja Php przed uruchomieniem wymaga dostępu do bazy danych \textit{PostgreSQL}\cite{postgresql} znajdująca się w innym kontenerze. Z tąd końcu nadpisana zostaje domyślna komenda. Skrypt \texttt{run.sh} ma za zadanie zawiesić proces uruchamiania aplikacji do czasu, aż nawiąże kontakt z bazą danych. Bardziej eleganckie rozwiązanie na ten problem dostarcza \textit{Docker-compose}\cite{dockercompose}. Na rysunku 4.3 można zaobserwować dyrektywę \textit{depends\_on} w serwisie \textit{apache} (nazywany w pracy Serwisem Php). Dyrektywa ta wymusza kolejność startowania kontenerów, to znaczy kiedy kontener jest zależny od innego, wystartuje dopiero wtedy kiedy kontener od którego zleży zgłosi gotowaść. Wadą tego rozwiązania jest fakt, że mechanizm dyrektywy \textit{depends\_on} sprawdza tylko czy głwówny wątek kontenera jest już uruchomiony, a nie czy aplikacja, w tym przypadku baza danych, jest gotowa do działania.
+
+\subsection{Docker-compose}
+\begin{center}
+\includegraphics[width=160mm]{docker_compose.png}
+\captionof{figure}{Plik docker-compose.yml}
+\end{center}
 
 \chapter{Wdrożenie przykładowych oraz rzeczywistych serwisów wydziałowego systemu informatycznego}
 \section{Wdrożenie przykładowych aplikacji}
@@ -212,6 +230,8 @@ Wdrożenie utowrzonego systemu w ramach tej pracy polega na imporcie maszyny wir
 Wdrożenie serwisów pochodzących z wydziałowego systemu informatycznego polega na zamienieniu zbudowynych plików wykonywalnych oraz plików interpretowalnych w odpowiednich miejscach drzewa katalogowego z naniesiem ewentualnych zmian w plikach budujących obrazy kontenerów i konfiguracji \textit{docker-compose.yml}.
 
 \chapter{Wnioski}
+Zastępowanie pojednyczej wirtualizacji na poziomie wspomagania sprzętowego na wirtualizację zagnieżdżoną, bo z dodatkową wirtualizacją na poziomie systemu opercyjnego, mogłoby wzbudzić kontrowersje co do słuszności takiego pomysłu. Należy sobie jednak zdać sprawę z tego, że obrazy systemów opercyjnych zajmują pewną ilość miejsca na dysku, zatem pierwszą zaletą zaprezentowanego rozwiązania jest oszczędność na pamięci masowej. Kolejeną zaletą jest ograniczenie liczby maszyn wirtulanych które musi obsłużyć hipernadzorca. Tym samym jest on odciążony, co daje szanse na usprawnienie pracy pozostałych maszyn wirtualnych oraz serwisów w nich zawartych. Z punktu widzenia administratora serwera redukcja maszyn wirtualnych na przykład mało znaczących, bądź zawierających małe serwisy o dużo niższym zapotrzebowaniu na zasoby sprzętowe niż system operacyjny na którym funkcjonują, jest z pewnością oszczędnością ba zasobach sprzętowych oraz ułatwieniem w zarządzeniu infrastrukturą serwera, w szczególności jeżeli osadzonych w systemie jest dzięsiątki, setki albo i tysiące maszyn wirtualnych.
+
 
 \chapter{Kod źródłowy}
 
@@ -229,7 +249,7 @@ Dołączona płyta CD zawiera:
 \end{itemize}
 
 \section{Kod osób trzecich}
-Aplikacja \textit{Java Spring Boot} została zbudowana z przykładowego kodu pochodzącego z oficjalnego samouczka\cite{springboot} na licencji ASLv2
+Aplikacja \textit{Java Spring Boot} została zbudowana z kodu pochodzącego z oficjalnego samouczka\cite{springboot} na licencji ASLv2
 
 %\chapter {Bibliografia}
 \bibliography{bibliografia}

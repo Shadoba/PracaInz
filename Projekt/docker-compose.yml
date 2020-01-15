@@ -1,0 +1,31 @@
+version: '3'
+services:
+    postgresdb:
+        image: postgres
+        container_name: postgresdb
+        ports: 
+            - "5432:5432"
+        restart: always
+        environment:
+            - POSTGRES_PASSWORD=password
+            - POSTGRES_USER=user
+            - POSTGRES_DB=kddb
+    apache:
+        build: ./php/app
+        container_name: php-apache
+        volumes: 
+            - ./php/app/ProjektBD_KD:/var/www/site
+        ports:
+            - "8081:80"
+        environment:
+            - POSTGRES_HOST=postgresdb
+        depends_on:
+            - postgresdb
+    springboot:
+        container_name: springboot
+        build: ./springboot/gs-spring-boot-docker/complete
+        ports:
+            - "8080:8080"
+networks:
+  default:
+    driver: bridge

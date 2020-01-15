@@ -30,11 +30,14 @@
 \contentsline {subsubsection}{Aplikacja Php}{21}{section*.7}%
 \contentsline {subsubsection}{Baza danych PostgreSQL}{21}{section*.8}%
 \contentsline {section}{\numberline {4.4}Zrealizowane pliki dockerfile}{21}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Wdrożenie przykładowych oraz rzeczywistych serwisów wydziałowego systemu informatycznego}{22}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Wdrożenie przykładowych aplikacji}{22}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Wdrożenie rzeczywistych serwisów wydziałowego systemu informatycznego}{22}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Wnioski}{23}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Kod źródłowy}{24}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Repozytorium}{24}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Dołączona płyta CD}{24}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Kod osób trzecich}{24}{section.7.3}%
+\contentsline {subsection}{\numberline {4.4.1}Aplikacja Java Spring Boot}{21}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Aplikacja Php}{22}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Docker-compose}{23}{subsection.4.4.3}%
+\contentsline {chapter}{\numberline {5}Wdrożenie przykładowych oraz rzeczywistych serwisów wydziałowego systemu informatycznego}{24}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Wdrożenie przykładowych aplikacji}{24}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Wdrożenie rzeczywistych serwisów wydziałowego systemu informatycznego}{24}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Wnioski}{25}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Kod źródłowy}{26}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Repozytorium}{26}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Dołączona płyta CD}{26}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Kod osób trzecich}{26}{section.7.3}%

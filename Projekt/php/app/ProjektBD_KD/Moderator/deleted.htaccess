@@ -1,0 +1,4 @@
+AuthUserFile /var/www/site/.htpasswd
+AuthName "uzytkownik: admin    haslo: admin1"
+AuthType Basic
+Require user admin

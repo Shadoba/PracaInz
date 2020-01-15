@@ -22,11 +22,14 @@
 \BOOKMARK [1][-]{section.4.2}{Srodowisko projektowe i wymagania aplikacji}{chapter.4}% 22
 \BOOKMARK [1][-]{section.4.3}{Dzia\233anie i powiazania zbioru kontener\363w}{chapter.4}% 23
 \BOOKMARK [1][-]{section.4.4}{Zrealizowane pliki dockerfile}{chapter.4}% 24
-\BOOKMARK [0][-]{chapter.5}{Wdrozenie przyk\233adowych oraz rzeczywistych serwis\363w wydzia\233owego systemu informatycznego}{}% 25
-\BOOKMARK [1][-]{section.5.1}{Wdrozenie przyk\233adowych aplikacji}{chapter.5}% 26
-\BOOKMARK [1][-]{section.5.2}{Wdrozenie rzeczywistych serwis\363w wydzia\233owego systemu informatycznego}{chapter.5}% 27
-\BOOKMARK [0][-]{chapter.6}{Wnioski}{}% 28
-\BOOKMARK [0][-]{chapter.7}{Kod zr\363d\233owy}{}% 29
-\BOOKMARK [1][-]{section.7.1}{Repozytorium}{chapter.7}% 30
-\BOOKMARK [1][-]{section.7.2}{Do\233aczona p\233yta CD}{chapter.7}% 31
-\BOOKMARK [1][-]{section.7.3}{Kod os\363b trzecich}{chapter.7}% 32
+\BOOKMARK [2][-]{subsection.4.4.1}{Aplikacja Java Spring Boot}{section.4.4}% 25
+\BOOKMARK [2][-]{subsection.4.4.2}{Aplikacja Php}{section.4.4}% 26
+\BOOKMARK [2][-]{subsection.4.4.3}{Docker-compose}{section.4.4}% 27
+\BOOKMARK [0][-]{chapter.5}{Wdrozenie przyk\233adowych oraz rzeczywistych serwis\363w wydzia\233owego systemu informatycznego}{}% 28
+\BOOKMARK [1][-]{section.5.1}{Wdrozenie przyk\233adowych aplikacji}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.2}{Wdrozenie rzeczywistych serwis\363w wydzia\233owego systemu informatycznego}{chapter.5}% 30
+\BOOKMARK [0][-]{chapter.6}{Wnioski}{}% 31
+\BOOKMARK [0][-]{chapter.7}{Kod zr\363d\233owy}{}% 32
+\BOOKMARK [1][-]{section.7.1}{Repozytorium}{chapter.7}% 33
+\BOOKMARK [1][-]{section.7.2}{Do\233aczona p\233yta CD}{chapter.7}% 34
+\BOOKMARK [1][-]{section.7.3}{Kod os\363b trzecich}{chapter.7}% 35
