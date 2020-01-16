@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.26)  16 JAN 2020 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.26)  16 JAN 2020 12:45
 entering extended mode
-**./praca.tex
-(praca.tex
+**./streszczenie.tex
+(streszczenie.tex
 LaTeX2e <2019-10-01> patch level 3
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\book.cls"
 Document Class: book 2019/10/25 v1.4k Standard LaTeX document class
@@ -596,24 +596,24 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'polish'.
 
-(praca.aux)
-\openout1 = `praca.aux'.
+(streszczenie.aux)
+\openout1 = `streszczenie.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 28
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 33
 .
  ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -653,14 +653,14 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 28.
+LaTeX Info: Redefining \microtypecontext on input line 33.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 28.
+LaTeX Info: Redefining \showhyphens on input line 33.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -698,7 +698,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box50
-Package hyperref Info: Link coloring OFF on input line 28.
+Package hyperref Info: Link coloring OFF on input line 33.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -711,13 +711,13 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count285
 )
-LaTeX Info: Redefining \ref on input line 28.
-LaTeX Info: Redefining \pageref on input line 28.
-LaTeX Info: Redefining \nameref on input line 28.
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
 
-(praca.out) (praca.out)
+(streszczenie.out) (streszczenie.out)
 \@outlinefile=\write3
-\openout3 = `praca.out'.
+\openout3 = `streszczenie.out'.
 
 Package epstopdf Info: Source file: <agh_nzw_a_pl_3w_wbr_cmyk.eps>
 (epstopdf)                    date: 2019-12-26 04:01:25
@@ -728,22 +728,22 @@ pdf>
 (epstopdf)                    size: 9339 bytes
 (epstopdf)             Command: <epstopdf --outfile=agh_nzw_a_pl_3w_wbr_cmyk-ep
 s-converted-to.pdf agh_nzw_a_pl_3w_wbr_cmyk.eps>
-(epstopdf)             \includegraphics on input line 31.
+(epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./agh_nzw_a_pl_3w_wbr_cmyk-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<agh_nzw_a_pl_3w_wbr_cmyk-eps-converted-to.pdf, id=143, 182.6825pt x 107.40125p
-t>
+<agh_nzw_a_pl_3w_wbr_cmyk-eps-converted-to.pdf, id=31, 182.6825pt x 107.40125pt
+>
 File: agh_nzw_a_pl_3w_wbr_cmyk-eps-converted-to.pdf Graphic file (type pdf)
 <use agh_nzw_a_pl_3w_wbr_cmyk-eps-converted-to.pdf>
 Package pdftex.def Info: agh_nzw_a_pl_3w_wbr_cmyk-eps-converted-to.pdf  used on
- input line 31.
+ input line 36.
 (pdftex.def)             Requested size: 181.48898pt x 106.69783pt.
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 3
-3.
+8.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -759,284 +759,51 @@ _a_pl_3w_wbr_cmyk-eps-converted-to.pdf>]pdfTeX warning (ext4): destination with
  the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.54 	\newpage
+l.59 	\newpage
                [1]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
-7.
- ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
-7.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-67.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-67.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omxlmex.fd"
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 67.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 67.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 67.
-
-Overfull \hbox (63.94745pt too wide) in paragraph at lines 67--72
- [] 
- []
-
-[2] (praca.toc [3
-
-])
-\tf@toc=\write4
-\openout4 = `praca.toc'.
-
- [4]
 Rozdzia\l  1.
-[5
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-
- []
-
-<schemat_proj.png, id=224, 563.706pt x 380.622pt>
-File: schemat_proj.png Graphic file (type png)
-<use schemat_proj.png>
-Package pdftex.def Info: schemat_proj.png  used on input line 82.
-(pdftex.def)             Requested size: 455.24408pt x 307.39609pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 83.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (28.4523pt too wide) in paragraph at lines 82--83
- [] 
- []
-
-[6] [7 <./schemat_proj.png>]
 Rozdzia\l  2.
-<schemat_os.png, id=257, 120.45pt x 120.45pt>
-File: schemat_os.png Graphic file (type png)
-<use schemat_os.png>
-Package pdftex.def Info: schemat_os.png  used on input line 96.
-(pdftex.def)             Requested size: 455.24408pt x 455.28865pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 97.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (28.4523pt too wide) in paragraph at lines 96--97
- [] 
- []
-
-[8
-
-] [9 <./schemat_os.png>] [10]
-<schemat_hiper1.png, id=290, 252.34274pt x 381.8265pt>
-File: schemat_hiper1.png Graphic file (type png)
-<use schemat_hiper1.png>
-Package pdftex.def Info: schemat_hiper1.png  used on input line 118.
-(pdftex.def)             Requested size: 341.43306pt x 516.69034pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 119.
-See the caption package documentation for explanation.
-
-[11]
-<schemat_hiper2.png, id=303, 333.6465pt x 456.5055pt>
-File: schemat_hiper2.png Graphic file (type png)
-<use schemat_hiper2.png>
-Package pdftex.def Info: schemat_hiper2.png  used on input line 125.
-(pdftex.def)             Requested size: 341.43306pt x 467.1828pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 126.
-See the caption package documentation for explanation.
-
-[12 <./schemat_hiper1.png>]
-<schemat_kont.png, id=312, 325.81725pt x 305.34074pt>
-File: schemat_kont.png Graphic file (type png)
-<use schemat_kont.png>
-Package pdftex.def Info: schemat_kont.png  used on input line 132.
-(pdftex.def)             Requested size: 398.33858pt x 373.3072pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 133.
-See the caption package documentation for explanation.
-
-[13 <./schemat_hiper2.png>] [14 <./schemat_kont.png>] [15]
 Rozdzia\l  3.
-<schemat_archwej.png, id=330, 250.536pt x 381.8265pt>
-File: schemat_archwej.png Graphic file (type png)
-<use schemat_archwej.png>
-Package pdftex.def Info: schemat_archwej.png  used on input line 144.
-(pdftex.def)             Requested size: 341.43306pt x 520.36084pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 145.
-See the caption package documentation for explanation.
-
-[16
-
-] [17 <./schemat_archwej.png>]
-<schemat_archdoc.png, id=340, 248.127pt x 381.8265pt>
-File: schemat_archdoc.png Graphic file (type png)
-<use schemat_archdoc.png>
-Package pdftex.def Info: schemat_archdoc.png  used on input line 151.
-(pdftex.def)             Requested size: 341.43306pt x 525.40633pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 152.
-See the caption package documentation for explanation.
-
-[18 <./schemat_archdoc.png>]
 Rozdzia\l  4.
-LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 1
-61.
-("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omslmr.fd"
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 161.
- [19
-
-] [20]
-<dockerfile_java.png, id=373, 496.254pt x 72.27pt>
-File: dockerfile_java.png Graphic file (type png)
-<use dockerfile_java.png>
-Package pdftex.def Info: dockerfile_java.png  used on input line 207.
-(pdftex.def)             Requested size: 455.24408pt x 66.2973pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 208.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (28.4523pt too wide) in paragraph at lines 207--208
- [] 
- []
-
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-10.
-("C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [21 <./dockerfile_java.png>]
-<dockerfile_php.png, id=384, 740.7675pt x 502.2765pt>
-File: dockerfile_php.png Graphic file (type png)
-<use dockerfile_php.png>
-Package pdftex.def Info: dockerfile_php.png  used on input line 214.
-(pdftex.def)             Requested size: 455.24408pt x 308.6798pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 215.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (28.4523pt too wide) in paragraph at lines 214--215
- [] 
- []
-
-[22 <./dockerfile_php.png>]
-<docker_compose.png, id=394, 423.984pt x 413.74574pt>
-File: docker_compose.png Graphic file (type png)
-<use docker_compose.png>
-Package pdftex.def Info: docker_compose.png  used on input line 221.
-(pdftex.def)             Requested size: 455.24408pt x 444.26295pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 222.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (28.4523pt too wide) in paragraph at lines 221--222
- [] 
- []
-
-[23 <./docker_compose.png>]
+[2]
 Rozdzia\l  5.
-[24
-
-]
 Rozdzia\l  6.
-[25
+[3]
+Overfull \hbox (356.66028pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/12 ROZDZIAŠ 5.  WDRO›ENIE PRZYKŠADOWYCH ORAZ RZECZYWISTYCH SERWISÓ
+W WYDZIAŠOWEGO SYSTEMU INFORMATYCZNEGO \T1/lmr/m/n/12 4
+ []
 
-]
+[4]
 Rozdzia\l  7.
-(praca.bbl [26
-
-]
-Underfull \hbox (badness 6592) in paragraph at lines 14--17
-[]\T1/lmr/m/n/12 (+20) VMware, Inc., VMware ESX.  []$\T1/lmtt/m/n/12 https : / 
-/ www . vmware . com / products /
- []
-
-
-Underfull \hbox (badness 2435) in paragraph at lines 69--72
-[]\T1/lmr/m/n/12 (+20) VMware, Inc., VMware Work-sta-tion Pro.  []$\T1/lmtt/m/n
-/12 https : / / www . vmware . com /
- []
-
-[27
-
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
- [28]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
- (praca.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
-Package rerunfilecheck Info: File `praca.out' has not changed.
-(rerunfilecheck)             Checksum: 4D467E1D93A7E1AF07D2EA185630E57B;2619.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
+[5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
+ (streszczenie.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
+Package rerunfilecheck Info: File `streszczenie.out' has not changed.
+(rerunfilecheck)             Checksum: 6BB2B390B2AAED42491DD225A7528FF9;446.
  ) 
 Here is how much of TeX's memory you used:
- 22198 strings out of 492484
- 389005 string characters out of 3131044
- 514283 words of memory out of 3000000
- 26003 multiletter control sequences out of 15000+200000
- 622432 words of font info for 137 fonts, out of 3000000 for 9000
+ 21623 strings out of 492484
+ 380136 string characters out of 3131044
+ 507892 words of memory out of 3000000
+ 25694 multiletter control sequences out of 15000+200000
+ 594644 words of font info for 65 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,6n,67p,2983b,589s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
-nc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
-bx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbxi10.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
-/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on praca.pdf (29 pages, 766513 bytes).
+ 45i,5n,67p,822b,417s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr
+i12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.
+pfb>
+Output written on streszczenie.pdf (6 pages, 196773 bytes).
 PDF statistics:
- 532 PDF objects out of 1000 (max. 8388607)
- 109 named destinations out of 1000 (max. 500000)
- 26448 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 98 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
+ 21054 words of extra memory for PDF output out of 24883 (max. 10000000)
 

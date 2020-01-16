@@ -1,0 +1,83 @@
+\documentclass[polish, a4paper, 12pt, oneside]{book}
+\linespread{1.3}
+\usepackage[a4paper, inner=0cm, outer=0cm, top=2.7cm, right=2.4cm, bottom=2.5cm, left=2.4cm, bindingoffset=1.2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{index}
+\usepackage{babel}
+\usepackage{csquotes}
+\usepackage{xpatch}
+\usepackage{enumitem}
+\usepackage[]{impnattypo}
+\usepackage{polski}
+\usepackage{changepage}
+\usepackage{indentfirst}
+\usepackage{enumitem}
+\usepackage{afterpage}
+\usepackage{capt-of}
+\usepackage{caption}
+\usepackage[numbers]{natbib}
+\usepackage{hyperref}
+
+\bibliographystyle{unsrt}
+\setlist[itemize,2]{label={$\star$}}
+
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+\makeatother
+
+\begin{document}
+	
+	\begin{titlepage}
+		\includegraphics[height=37.5mm]{agh_nzw_a_pl_3w_wbr_cmyk}\\
+		\rule{30mm}{0pt}
+		{\large\textsf{Wydział Fizyki i Informatyki Stosowanej}}\\
+		\rule{\textwidth}{3pt}\\
+		\rule[2ex]
+		{\textwidth}{1pt}\\
+		\vspace{5ex}
+		\begin{center}
+			{\bf\LARGE\textsf{Streszczenie pracy inżynierskiej}}\\
+			\vspace{13ex}
+			{\bf\Large\textsf{Bartłomiej Mucha}}\\
+			\vspace{3ex}
+			{\sf \small kierunek studiów:} {\bf\small\textsf{informatyka stosowana}}\\
+			\vspace{7ex}
+			{\bf\huge\textsf{Migracja serwisów internetowych i integracja usług w środowisku kontenerów Docker}}\\
+			\vspace{14ex}
+			{\sf \Large Opiekun:} {\bf\Large\textsf{dr inż. Piotr Gronek}}\\
+			\vspace{22ex}
+			\textsf{\bf\large\textsf{Kraków, styczeń 2020}}
+		\end{center}
+	\end{titlepage}
+	
+	\vspace*{\fill}
+	\newpage
+	
+	\chapter{Wstęp}
+	W tym rozdziale znajduje się wprowadzenie do zagadnień związanych z wirtualizacją. Znajduję się tutaj również opis celów i założeń projektu oraz co ma zostać wykonane w ramach pracy.
+	
+	\chapter{Podstawa Teoretyczna}
+	W rozdziale opisane są zagadnienia związane z wirtualizacją, takie jak jej typy, wymagania w oprogramowania. Opisane są również występujące w ramach działania wirtualizacji i do jej działania mechanizmy.
+	
+	\chapter{Założenia projektowe}
+	Wyjaśniony jest stan wejściowy wydziałowego systemu informatyczne oraz to jakim zmianą zostanie poddany i jaki ma być jego stan po zrealizowaniu projektu.
+	
+	\chapter{Opis przykładowych aplikacji}
+Zostają dokładnie opisane wdrożone przykładowe serwisy, w tym ich wymagania i zasady działania oraz powiązania między sobą. Przeanalizowane są pliki budujące kontenery \textit{Docker} orz plik konfiguracyjny środowiska \textit{Docker-compose} do zarządzania kontenerami.
+	 
+	\chapter{Wdrożenie przykładowych oraz rzeczywistych serwisów wydziałowego systemu informatycznego}
+	Zrelacjonowany zostaje etap wdrażania projektu na wydziałowy serwer oraz sprawdzenie funkcjonowania projektu na platformie serwerowej.
+	 
+	\chapter{Wnioski}
+	W tym rozdziale znajduję się podsumowanie projektu i samego pomysłu zawartego w temacie tej pracy dyplomowej.
+	\newpage
+	\chapter{Kod źródłowy}
+	Miejsce, w którym można odnaleźć adresy \textit{URL} do źródeł projektu i pracy inżynierskiej oraz opis zawartości dołączonej płyty cd.
+	
+	
+\end{document}
