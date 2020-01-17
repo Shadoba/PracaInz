@@ -1,43 +1,43 @@
 \babel@toc {polish}{}
-\contentsline {chapter}{\numberline {1}Wstęp}{5}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Cel pracy}{6}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Założenia projektu}{7}{section.1.2}%
-\contentsline {chapter}{\numberline {2}Podstawa Teoretyczna}{8}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Wirtualizacja}{8}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Poziom architektury zestawu instrukcji (\textit {ISA})}{10}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Poziom warstwy abstrakcji sprzętowej (\textit {HAL})}{10}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Poziom systemu operacyjnego}{10}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Poziom bibliotek lub języków programowania}{11}{subsection.2.1.4}%
-\contentsline {subsection}{\numberline {2.1.5}Poziom aplikacji}{11}{subsection.2.1.5}%
-\contentsline {section}{\numberline {2.2}Hipernadzorca}{11}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Hipernadzorca typu pierwszego}{11}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Hipernadzorca typu drugiego}{12}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Konteneryzacja}{13}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Założenia projektowe}{16}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Architektura wejściowa serwisów}{16}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Platforma systemu serwerowego}{16}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Wizualizacja platformy wejściowej}{16}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Architektura docelowa serwisów}{17}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Opis przykładowych aplikacji}{19}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Opis}{19}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Środowisko projektowe i wymagania aplikacji}{19}{section.4.2}%
-\contentsline {subsubsection}{Środowisko projektowe:}{19}{section*.2}%
-\contentsline {subsubsection}{Wymagania Aplikacji:}{19}{section*.3}%
-\contentsline {section}{\numberline {4.3}Działanie i powiązania zbioru kontenerów}{20}{section.4.3}%
-\contentsline {subsubsection}{Docker}{20}{section*.4}%
-\contentsline {subsubsection}{Docker-compose}{21}{section*.5}%
-\contentsline {subsubsection}{Aplikacja Java Spring Boot}{21}{section*.6}%
-\contentsline {subsubsection}{Aplikacja Php}{21}{section*.7}%
-\contentsline {subsubsection}{Baza danych PostgreSQL}{21}{section*.8}%
-\contentsline {section}{\numberline {4.4}Zrealizowane pliki dockerfile}{21}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Aplikacja Java Spring Boot}{21}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Aplikacja Php}{22}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Docker-compose}{23}{subsection.4.4.3}%
-\contentsline {chapter}{\numberline {5}Wdrożenie przykładowych oraz rzeczywistych serwisów wydziałowego systemu informatycznego}{24}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Wdrożenie przykładowych aplikacji}{24}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Wdrożenie rzeczywistych serwisów wydziałowego systemu informatycznego}{24}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Wnioski}{25}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Kod źródłowy}{26}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Repozytorium}{26}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Dołączona płyta CD}{26}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Kod osób trzecich}{26}{section.7.3}%
+\contentsline {chapter}{\numberline {1}Wstęp}{6}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Cel pracy}{7}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Założenia projektu}{8}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Podstawa Teoretyczna}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Wirtualizacja}{9}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Poziom architektury zestawu instrukcji (\textit {ISA})}{11}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Poziom warstwy abstrakcji sprzętowej (\textit {HAL})}{11}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Poziom systemu operacyjnego}{11}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Poziom bibliotek lub języków programowania}{12}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Poziom aplikacji}{12}{subsection.2.1.5}%
+\contentsline {section}{\numberline {2.2}Hipernadzorca}{12}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Hipernadzorca typu pierwszego}{12}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Hipernadzorca typu drugiego}{13}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Konteneryzacja}{14}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Założenia projektowe}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Architektura wejściowa serwisów}{17}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Platforma systemu serwerowego}{17}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Wizualizacja platformy wejściowej}{17}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Architektura docelowa serwisów}{18}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Opis przykładowych aplikacji}{20}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Opis}{20}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Środowisko projektowe i wymagania aplikacji}{20}{section.4.2}%
+\contentsline {subsubsection}{Środowisko projektowe:}{20}{section*.2}%
+\contentsline {subsubsection}{Wymagania Aplikacji:}{20}{section*.3}%
+\contentsline {section}{\numberline {4.3}Działanie i powiązania zbioru kontenerów}{21}{section.4.3}%
+\contentsline {subsubsection}{Docker}{21}{section*.4}%
+\contentsline {subsubsection}{Docker-compose}{22}{section*.5}%
+\contentsline {subsubsection}{Aplikacja Java Spring Boot}{22}{section*.6}%
+\contentsline {subsubsection}{Aplikacja Php}{22}{section*.7}%
+\contentsline {subsubsection}{Baza danych PostgreSQL}{22}{section*.8}%
+\contentsline {section}{\numberline {4.4}Zrealizowane pliki dockerfile}{22}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Aplikacja Java Spring Boot}{22}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Aplikacja Php}{23}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Docker-compose}{24}{subsection.4.4.3}%
+\contentsline {chapter}{\numberline {5}Wdrożenie przykładowych oraz rzeczywistych serwisów wydziałowego systemu informatycznego}{25}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Wdrożenie przykładowych aplikacji}{25}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Wdrożenie rzeczywistych serwisów wydziałowego systemu informatycznego}{25}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Wnioski}{26}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Kod źródłowy}{27}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Repozytorium}{27}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Dołączona płyta CD}{27}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Kod osób trzecich}{27}{section.7.3}%
